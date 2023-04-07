@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Review</title>
+        <link rel="stylesheet" href="review_style.css">
+
+    </head>
+<body>
+<H1><v>Feedback Form</v></H1>
+    <FORM>
+      First Name : <INPUT type="text" name="firstname" placeholder="Enter name here"><br><br>
+      Last Name : <INPUT type="text" name="secondname"  placeholder="Enter surname here">
+      <BR>
+      <BR>
+      <!--It's important that both of these radio button have the same name so they behave as one component (i.e. Only one can be selected at a time)-->  
+      GENDER:
+      <BR>
+        <BR>
+      <INPUT type="radio" name="gender" value="male">Male
+      <BR>
+      <INPUT type="radio" name="gender" value="female">Female  
+      <BR>
+        <INPUT type="radio" name="gender" value="Prefer Not to Say">Prefer not to Say  
+      <BR>
+      <BR>
+      <!--This uses the new HTML "email" INPUT type which will automatically validates the email address when the SUBMIT button is clicked-->
+      E-mail: <input type="email" name="mail" placeholder="E-mail Address">
+      <BR>
+      <BR>
+        Comment :<BR>        
+        <TEXTAREA rows="6" cols="50" name="commentfield"></TEXTAREA>
+        <BR>
+            <button>Send Feedback</button>
+        </FORM>
+</body>
+</html>
